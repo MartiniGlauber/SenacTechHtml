@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--LOGIN-->
+    <form action="feedbackLogin.html">
+        <fieldset>
+            <legend>LOGIN</legend>
+            <label for="nome">Nome:(4 a 20 caracteres)</label>
+            <input type="text" minlength="4" maxlength="20" size="25" name="nome">
+            <br><br>
+            <label for="senha">Senha:(mínimo de 8 caracteres)</label>
+            <input type="password" minlength="8" size="19" name="senha">
+            <br><br>
+            <button type="submit" name="btnLogin">Login</button>
+            <button type="reset" name="btnLimparLogin">Limpar</button>
+        </fieldset>
+    </form>
+    <!--CADASTRO-->
+    <form>
+        <fieldset>
+            <legend>Cadastro de usuário</legend>
+            <label for="nome">Nome:*</label>
+            <input type="text" size="20" required name="nome">
+            <br><br>
+            <label for="email">E-mail:*</label>
+            <input type="email" size="20" required name="email">
+            <br><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" size="18" placeholder="(xx)xxxx-xxxxx" name="telefone">
+            <br><br>
+            <label for="turnoDisponivel">Turno disponível:</label><br>
+            <input type="checkbox">Manhã<br> 
+            <input type="checkbox">Tarde<br>
+            <input type="checkbox">Noite<br> 
+            <label>Estado cívil</label><br>
+            <input type="radio" name="estado-civil">Solteiro<br>
+            <input type="radio"name="estado-civil">Casado<br>
+            <input type="radio" name="estado-civil">União estável<br>
+            <input type="radio" name="estado-civil">Divorciado<br>
+            <input type="radio" name="estado-civil">Separado<br>
+            <input type="radio" name="estado-civil">Viuvo<br><br>
+            <label>Cidade:</label>
+            <select>
+                <option>Porto Alegre</option><br>
+                <option>Canoas</option><br>
+                <option>Cachoeirinha</option><br>
+                <option>Gravataí</option><br>
+                <option>Viamão</option><br>
+                <option>Esteio</option><br>
+                <option>São Leopoldo</option><br>
+            </select> <br><br>
+            <label>Envie seu currículo</label>
+            <input type="file"><br><br>
+            <label>Cor preferida:</label>
+            <input type="color"><br><br>
+            <label>Dia disponível para entrevista:</label>
+            <input type="date"><br><br>
+            <label>Hora disponível para entrevista:</label>
+            <input type="time"><br><br>
+            <label>Data e hora disponível para entrevista:</label>
+            <input type="datetime-local"><br><br>
+            <label>Nível de expertise</label>
+            <input type="range"><br><br>
+            <label>Deixe sua mensagem:*</label><br>
+            <textarea cols="35" rows="10" required placeholder="Digite um recado"></textarea><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <p>* Campos obrigatórios</p>
+        </fieldset>
+    </form>
+
+</body>
+</html>
