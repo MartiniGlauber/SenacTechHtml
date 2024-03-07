@@ -1,0 +1,81 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image:url("imagens/ceu-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+a, h1{
+    font-size: 18px;
+    color: #D94625;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    font-size: 18px;
+    color: #08b825;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+h1{
+    font-size: 28px;
+}
+
+hr{
+    width: 50%;
+    height: 1px;
+    background-color:#D94625;
+    
+}
+
+.galeria-youtube iframe{
+    width: 320px;
+    height: 240px;
+}
+
+video{
+    width: 320px;
+}
+
+.playlist iframe{
+    border-radius: 12px ;
+    width: 500px;
+    height: 252px;
+}
+
+
+.mapa{
+    border: 0px;
+    width: 100%;
+    height: 450px;
+}
+.icone-social{
+    width: 50px;
+    transition: 0.5s;
+}
+.icone-social:hover{
+    width: 60px;
+    transition: 0.5s;
+}
+.banner{
+    width: 100%;
+    box-shadow: 0 0 7px rgb(70, 69, 69);
+}
+.logo{
+    width: 250px;
+}
+.conteudo{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: rgb(61, 61, 61);
+}
+.galeria-imagens{
+    width: 250px;
+    height: 180px;
+    border: 7px solid #D94625;
+}
