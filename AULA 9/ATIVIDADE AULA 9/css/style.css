@@ -1,6 +1,6 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image:url("imagens/ceu-1.jpg");
+    background-image:url("../imagens/ceu-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -23,6 +23,7 @@ a:hover{
 }
 h1{
     font-size: 28px;
+    
 }
 
 hr{
@@ -61,12 +62,15 @@ video{
     width: 60px;
     transition: 0.5s;
 }
+
 .banner{
     width: 100%;
     box-shadow: 0 0 7px rgb(70, 69, 69);
+    animation: fade 5s;
 }
 .logo{
     width: 250px;
+    filter: drop-shadow(0px 0px 7px rgb(149,149,149));
 }
 .conteudo{
     font-size: 18px;
@@ -78,4 +82,13 @@ video{
     width: 250px;
     height: 180px;
     border: 7px solid #D94625;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+.galeria-imagens:hover{
+    width: 250px;
+    height: 180px;
+    border: 7px solid #D94625;
+    filter:grayscale(0%);
+    transition: filter 0.5s;
 }
