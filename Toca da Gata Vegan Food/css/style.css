@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(../Imagens/fundo-principal.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+header{
+
+}
+
+main{
+
+}
+
+footer{
+
+}
+
+.marck-script-regular {
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.logo{
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;   
+}
+
+.nome-empresa{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: white;
+    width: 800px;
+    height: 800px;
+    
+}
+
+.fundo-principal{
+    width: 100%
+}
