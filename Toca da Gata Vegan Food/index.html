@@ -13,23 +13,50 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="/Imagens/logo-white.png" alt="Logo Toca da Gata" class="logo">
     </header>
 
-    <main>
-        <section>
-            <div class="nome-empresa"><h1>Toca da gata Vegan Food</h1></div>
-
-        </section>
-
+    <main>        
+        <h1>Toca da Gata Vegan Food</h1>
+        <h2>Coma verde, mantenha-se saudável!</h2>
+        <h4>Preencha o formulário e ganhe 25% para experimentar qualquer item de nosso cardápio.</h4> 
+        <p>Promoção válida até 01/04/2024.</p>
+        <form action="feedback-cadastro.html">
+            <input type="text" name="nome" minlength="4" maxlength="30" size="30" required placeholder="Insira nome">
+            <input type="text" name="email" minlength="4" maxlength="50" size="50" required placeholder="Insira e-mail">
+            <div class="buttons">
+                <button type="submit" name="bt-enviar">Enviar</button>
+                <button type="reset" name="bt-limpar-login">Limpar</button>
+            </div>
+        </form>
     </main>
 
     <footer>
-
+        <div class="container-menu">
+            <img src="imagens/quinoa-salad.jpg" class="imagens-menu">
+            <h3>Salada de Quinoa</h3>
+            <h3>R$ 25.00</h3>            
+        </div>
+        <div class="container-menu">
+            <img src="imagens/burger.jpg" class="imagens-menu">
+            <h3>Burguer Vegano</h3>
+            <h3>R$ 30.00</h3>            
+        </div>
+        <div class="container-menu">
+            <img src="imagens/macarrao.jpg" class="imagens-menu">
+            <h3>Massa Vegana</h3>
+            <h3>R$ 32.00</h3>            
+        </div>
+        <div class="container-menu">
+            <img src="imagens/pizza.jpg" class="imagens-menu">
+            <h3>Pizza Especial</h3>
+            <h3>R$ 28.00</h3>            
+        </div>
+        
     </footer>
 </body>
 </html>

@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 body{
@@ -7,19 +8,30 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
-
+    color: white;
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
 header{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 0px;
 }
 
 main{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    
 }
 
 footer{
-
+    width: 100%;
+    margin-left: 40px;
+    margin-bottom: 0px;
 }
 
 .marck-script-regular {
@@ -27,27 +39,123 @@ footer{
     font-weight: 400;
     font-style: normal;
 }
-  
+
+.inter-tight-uniquifier{
+    
+  }
 
 .logo{
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     float: left;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 40px;   
 }
 
-.nome-empresa{
+h1{
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
-    color: white;
-    width: 800px;
-    height: 800px;
+
+    margin-top: 10px;
+    margin-left: 44px;
     
 }
-
+h2{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 10px;
+    margin-left: 44px;   
+    
+}
+h4{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;    
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 30%;
+    text-align: left;
+    line-height: 30px; 
+}
+p{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;    
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 30%;
+    text-align: left;
+    line-height: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 20%;
+    margin-left: 50px;    
+}
+.buttons{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .fundo-principal{
     width: 100%
 }
+.container-menu{
+    border-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(78, 78, 78, 0.8);
+    padding: 5px;
+    align-items: center;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 150px;
+    margin: 10px;
+    transition: 0.5s;
+    
+}
+.container-menu:hover{
+    border-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(78, 78, 78, 0.8);
+    padding: 5px;
+    align-items: center;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 150px;
+    margin: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;    
+}
+
+.imagens-menu{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;    
+    transition: 0.5s;
+}
+
