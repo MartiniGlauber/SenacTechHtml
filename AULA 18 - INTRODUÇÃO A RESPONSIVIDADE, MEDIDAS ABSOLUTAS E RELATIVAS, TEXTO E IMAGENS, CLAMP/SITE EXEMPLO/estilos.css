@@ -91,7 +91,7 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: clamp(1.1em, 1.1em + 1vw, 1.9em);
+    font-size: clamp(1.1em, 1.1em + 1vw, 1.5em);
     text-align: justify;
     line-height: 24px;
     color: rgb(61, 61, 61);
