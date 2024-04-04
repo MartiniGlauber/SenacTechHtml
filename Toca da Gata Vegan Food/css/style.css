@@ -45,11 +45,11 @@ footer{
   }
 
 .logo{
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     float: left;
-    margin-top: 30px;
-    margin-left: 40px;   
+    margin-top: 4vh;
+    margin-left: 4.5vw;   
 }
 
 h1{
@@ -58,8 +58,8 @@ h1{
     font-weight: weight;
     font-style: normal;
 
-    margin-top: 10px;
-    margin-left: 44px;
+    margin-top: 1vh;
+    margin-left: 5vw;
     
 }
 h2{
@@ -67,8 +67,8 @@ h2{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    margin-top: 10px;
-    margin-left: 44px;   
+    margin-top: 1vh;
+    margin-left: 5vw;   
     
 }
 h4{
@@ -76,8 +76,8 @@ h4{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;    
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 2vh;
+    margin-left: 5vw;
     width: 30%;
     text-align: left;
     line-height: 30px; 
@@ -88,7 +88,7 @@ p{
     font-weight: weight;
     font-style: normal;    
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 5vw;
     width: 30%;
     text-align: left;
     line-height: 30px;
@@ -99,17 +99,47 @@ form{
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 20%;
-    margin-left: 50px;    
-}
-.buttons{
+    margin-left: 5vw;    
+    }
+button{
+    width: 80px;
+    height: 30px;
     margin-top: 5px;
+    border-radius: 0.5em;
+    align-items: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
+    background: radial-gradient(gray, rgb(3, 3, 3));
+    color: whitesmoke;
+    transition: 0.5s;
+}
+button:hover{
+    width: 90px;
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 0.5em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: radial-gradient(gray, rgb(3, 3, 3));
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
 }
 input{
     margin-top: 5px;
     margin-bottom: 5px;
+    background-color: rgba(78, 78, 78, 0.8);
+    color: white;
+    border-radius: 0.5em;
+    height: 22px;
 }
 .fundo-principal{
     width: 100%

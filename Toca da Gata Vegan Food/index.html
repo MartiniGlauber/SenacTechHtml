@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Toca da Gata Vegan Food</title>
+    
+    <link rel="stylesheet" href="css/style.css">
     <!--Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +15,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--FAVICON-->
+    <link rel="icon" href="/Imagens/favicon-logo.png">
+    
+    <style>
+        @media(max-width:415px){            
+            .logo{
+                width: 70px;
+                height: 70px;
+            }
+            h1, h2, h4,p{
+                text-align: center;
+            }
+            h4{
+                width: 85%;
+            }
+            p{
+                width: 80%;                
+            }
+            button{
+                width: 80px;
+                height: 30px;
+            }
+            input{
+                width: 450%;
+            }
+            .container-menu{
+                align-items: center;
+                margin: 5px;
+            }
+        
+        }
+        @media(max-width:820px){
+                        
+            h1,h2,h4,p{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            h1, h2{
+                margin-right: 200px;
+            }
+           h4{
+                width: 85%;
+            }
+            p{
+                width: 80%;                
+            }
+            button{
+                width: 80px;
+                height: 30px;
+                margin-bottom: 20px;
+            }
+            input{
+                width: 440%;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .container-menu{
+                margin: 25px;
+                width: 300px;
+                margin-bottom: 20px;
+            }
+        }
+        </style>
+
 </head>
 <body>
     <header>
-        <img src="/Imagens/logo-white.png" alt="Logo Toca da Gata" class="logo">
+        <img src="Imagens/logo-white.png" alt="Logo Toca da Gata" class="logo">
     </header>
 
     <main>        
@@ -28,10 +94,10 @@
         <form action="feedback-cadastro.html">
             <input type="text" name="nome" minlength="4" maxlength="30" size="30" required placeholder="Insira nome">
             <input type="text" name="email" minlength="4" maxlength="50" size="50" required placeholder="Insira e-mail">
-            <div class="buttons">
-                <button type="submit" name="bt-enviar">Enviar</button>
-                <button type="reset" name="bt-limpar-login">Limpar</button>
-            </div>
+                <div class="buttons">
+                    <button type="submit" name="bt-enviar">Enviar</button>
+                    <button type="reset" name="bt-limpar-login">Limpar</button>
+                </div>
         </form>
     </main>
 
