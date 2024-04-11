@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografia para Todos</title>
+    <link href="estilos.css" rel="stylesheet">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <style> 
+    @media(min-width:600px){
+        .material-symbols-outlined{
+            display: none;
+        }
+    }      
+    @media(max-width:600px){
+        ul li{
+            display: flex;
+            justify-content: center;
+        }
+    }      
+    </style>
+</head>
+<body>
+
+<!--LOGO-->
+    <header>
+            <a href="index.html">
+                <img src="logo/logo-color.png" alt="logo do site" title="Clique aqui para voltar a página inicial" id="topo" class="logo">
+            </a>
+
+<!--MENU-->
+<span class="material-symbols-outlined">menu</span>
+        <nav>
+        <ul>
+            <li><a href="#topo">HOME</a></li>
+            <li><a href="#quem-somos">QUEM SOMOS</a></li>
+            <li><a href="#galeria">GALERIA</a></li>
+            <li><a href="#contatos">CONTATOS</a></li>
+        </ul>
+        </nav>
+
+<!--REDES SOCIAIS-->
+    <section id="redes-sociais">
+        <a href="https://www.facebook.com/valter.brandenburger/" target="_blank"><img src="imagens/facebook.png"  title="Clique para entrar no Facebook" class="redes-sociais"></a>
+
+        <a href="https://www.instagram.com/valbrandenoficial/" target="_blank"><img src="imagens/instagram.png" title="Clique para entrar no Instagram" class="redes-sociais"></a>
+
+        <a href="https://api.whatsapp.com/send?phone=5551992652273" target="_blank"><img src="imagens/whatsapp.png"  title="Clique para enviar um WhatsApp" class="redes-sociais"></a>
+
+        <a href="mailto:valter.brand@gmail.com"><img src="imagens/gmail.png"  title="Clique para enviar um email" class="redes-sociais"></a> 
+    </section>   
+    </header>
+
+<!--BANNER-->
+    <section id="banner">
+        <img src="imagens/banner-1.jpg" alt="banner de moça em jardim" class="banner">
+    </section>
+<!--TITULO-->
+        <h1 id="quem-somos">Quem Somos</h1>
+<!--TEXTO CONTEÚDO-->
+    <section id="texto">
+            <p>Há três décadas, Fotografia para Todos tem sido um farol para aspirantes a fotógrafos, oferecendo educação de qualidade e formação profissional excepcional. Com seus 30 anos de tradição, a escola consolidou-se como uma instituição de referência no ensino da arte da fotografia na região.</p>
+
+            <p>Fundada com a visão de promover a excelência fotográfica, a escola tem sido pioneira no desenvolvimento de programas abrangentes e inovadores, adaptando-se às mudanças tecnológicas e às demandas do mercado ao longo dos anos. Seu corpo docente é composto por profissionais experientes e apaixonados pela arte da fotografia, cujo objetivo é transmitir conhecimentos teóricos e práticos aos alunos.</p>
+
+            <p>A estrutura da escola é projetada para fornecer um ambiente inspirador e equipamentos de ponta, garantindo que os alunos tenham acesso aos recursos necessários para aprimorar suas habilidades técnicas e criativas. Desde estúdios bem equipados até laboratórios de pós-produção digital, a escola oferece um ambiente propício para a experimentação e aperfeiçoamento das técnicas fotográficas.</p>
+
+            <p>Além dos cursos técnicos, a escola também promove workshops, palestras e eventos que enriquecem a experiência dos alunos, trazendo renomados fotógrafos e profissionais da indústria para compartilhar seus conhecimentos e inspirar uma nova geração de talentos.</p>
+        </section>
+
+
+<!--GALERIA-->
+    <h2 id="galeria">Galeria</h1>
+        <section id="galeria-imagens">
+            <img src="imagens/fotografo-1.jpg">
+            <img src="imagens/fotografo-2.jpg">
+            <img src="imagens/fotografo-3.jpg">
+            <br>
+            <img src="imagens/cogumelo.jpg">
+            <img src="imagens/camera-3.jpg">
+            <img src="imagens/camera-2.jpg">
+        </section>
+ <!--RODAPÉ-->
+ <footer id="rodape">
+    <a id="contatos">
+<!--MAPA DO GOOGLE-->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1726.8951082280694!2d-51.219968628926594!3d-30.04287579894552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978567f17f28d%3A0x2c2c5272bacf4d3a!2sSenac%20Tech!5e0!3m2!1spt-BR!2sbr!4v1702580582102!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
+    <h3 class="autor">Desenvolvido por Válter Brandenburger <sup> &copy;</sup></h3>
+
+<!--VOLTAR TOPO-->
+    <a href="#topo" title="Voltar ao Topo">
+        <img src="imagens/seta-para-cima.png" alt="" class="voltar-topo">
+    </a>
+</footer>
+
+<script src="js/jquery-3.7.1.js"></script>
+<script>
+    $(".material-symbols-outlined").click(function(){
+         $("nav").toggle(800);
+    })
+</script>
+
+</body>
+</html>

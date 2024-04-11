@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-image:url("imagens/ceu-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a, h1, h2{
+    font-size: 18px;
+    color: #D94625;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    transition: color 1s;
+    margin: 10px;
+}
+
+a:hover{
+    color:#000000;
+    transition: color 1s;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+hr{
+    width: 50%;
+    height: 1px;
+    background-color:#D94625;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    color:rgb(156, 69, 69);
+    margin: auto;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav{
+    margin:20px
+}
+
+.logo{
+    width: 250px;
+    margin: 10px;
+}
+
+#redes-sociais{
+    margin: 0 10px 20px 0;
+}
+.redes-sociais{
+    width: 50px;
+    transition: width 1s ;
+}
+
+.redes-sociais:hover{
+    width: 60px;
+    transition: width 1s ;
+}
+
+.banner{
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 7px rgb(184, 184, 184);
+}
+
+#texto p{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(61, 61, 61);
+}
+
+#galeria-imagens{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#galeria-imagens img{
+    width: 250px;
+    height: 180px;
+    border: 7px solid #D94625;
+    margin: 15px;
+}
+
+.mapa{
+    border: 0px;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 14px;
+    font-style: italic;
+    margin: 10px;
+    text-align: center;
+}
+.voltar-topo{
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
