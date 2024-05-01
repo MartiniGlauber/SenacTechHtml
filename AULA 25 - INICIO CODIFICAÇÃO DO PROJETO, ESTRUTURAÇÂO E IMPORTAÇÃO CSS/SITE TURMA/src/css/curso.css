@@ -1,0 +1,29 @@
+#curso{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    text-align: center;
+    width: 900px;
+    background-color: ghostwhite;
+    border: 0;
+    border-collapse: collapse ;
+}
+
+tr{
+    text-align: center;
+    height: 30px;
+}
+
+tr:nth-child(even){
+    background-color:#c3ddfc;
+ }
+
+ .esquerda{
+    text-align:left;
+    padding-left: 15px;
+ }

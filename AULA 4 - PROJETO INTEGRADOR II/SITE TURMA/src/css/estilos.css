@@ -1,0 +1,147 @@
+@import url("banner.css");
+@import url("contato.css");
+@import url("curso.css");
+@import url("nav.css");
+@import url("footer.css");
+@import url("devs.css");
+@import url("galeria.css");
+@import url("header.css");
+@import url("quem-somos.css");
+
+:root{
+    --cor-texto:#401839;
+    --cor-titulo:rgb(72, 101, 124);
+    --fonte-padrao: "Montserrat", sans-serif;
+    --fonte-titulos: "batman";
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    background: rgb(211, 211, 211);
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+h1,h2,h3{
+    color:var(--cor-titulo);
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: -2px;
+    font-family: "batman";
+    filter: drop-shadow(0px 0px 3px rgb(187, 187, 187));
+    animation: surgirTopo 1s;
+}
+
+h2{
+    font-size: 2em;
+    word-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    text-align: center;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(72, 101, 124);
+    transition: color 1s, font-size 1s;
+    -o-transition: color 1s, font-size 1s;
+    -moz-transition: color 1s, font-size 1s;
+    -webkit-transition: color 1s, font-size 1s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a:hover{
+    color:rgb(252, 5, 5);
+    font-size: 1.1em;
+    cursor: url("../cursores/GhostGlow.cur"), default;
+    transition: color 1s, font-size 1s;
+    -o-transition: color 1s, font-size 1s;
+    -moz-transition: color 1s, font-size 1s;
+    -webkit-transition: color 1s, font-size 1s;
+}
+
+a:active{
+    color:crimson;
+}
+
+
+ p{
+    font-size: clamp(1.2em,1em+1vw,1.4em);
+    line-height: 20px;
+    /* text-indent: 50px; */
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 50px;
+}
+   
+.destaque-azul{
+    color: rgb(72, 101, 124);    
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.icons{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+
+@font-face{
+    font-family: "batman";
+    src:url("../fonts/batman.ttf")
+}
+
+@keyframes surgirTopo {
+    0%{
+        transform: translate(0, -200px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+

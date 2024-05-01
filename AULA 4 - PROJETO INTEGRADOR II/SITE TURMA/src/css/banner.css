@@ -1,0 +1,20 @@
+
+.banner{
+    width:100vw;
+    box-shadow: 0px 0px 10px rgb(145, 145, 145);
+    -o-box-shadow: 0px 0px 10px rgb(145, 145, 145);
+    -moz-box-shadow: 0px 0px 10px rgb(145, 145, 145);
+    -webkit-box-shadow: 0px 0px 10px rgb(145, 145, 145);
+    animation: fadeIn 2s; 
+    z-index: -10;  
+}
+
+#controles img{
+    width: 60px;
+    cursor: pointer;
+}
+
+#controles{
+    width: 125px;
+    margin: auto;
+}
